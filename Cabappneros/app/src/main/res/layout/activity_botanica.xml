@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondofunciona"
+    tools:context="com.example.monitor.cabappneros.Botanica">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/referencia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#af99cc66">
+
+        <RelativeLayout
+            android:id="@+id/referencia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/logoB1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="-18dp"
+                app:srcCompat="@mipmap/caba" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/logoB1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/botonP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Rutas"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="P.Interés"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonP3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Parque"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textoP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="100dp"
+            android:text="Ruta Senda Botánica y Etnográfica"
+            android:textColor="#336600"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/textoP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textoP1"
+            android:layout_below="@+id/textoP1"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="23dp"
+            android:text="Recorrido por una vía pecuaria, que une los centros de visitantes de Casa Palillos y de la Torre de Abraham, cerca de las márgenes del río Bullaque."
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/imagenP1"
+            android:layout_width="99dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="67dp"
+            app:srcCompat="@mipmap/stop"
+            android:layout_marginEnd="57dp"
+            android:layout_below="@+id/textoP2"
+            android:layout_alignEnd="@+id/textoP2" />
+
+        <ImageView
+            android:id="@+id/imagenP2"
+            android:layout_width="87dp"
+            android:layout_height="77dp"
+            app:srcCompat="@mipmap/play"
+            android:layout_marginEnd="47dp"
+            android:layout_alignBottom="@+id/imagenP1"
+            android:layout_toStartOf="@+id/imagenP1" />
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

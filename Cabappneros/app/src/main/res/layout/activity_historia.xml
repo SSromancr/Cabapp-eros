@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondofunciona"
+    tools:context="com.example.monitor.cabappneros.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/referencia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#af99cc66">
+
+        <RelativeLayout
+            android:id="@+id/referencia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/logoB1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="-18dp"
+                app:srcCompat="@mipmap/caba" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_toEndOf="@+id/logoB1">
+
+                <Button
+                    android:id="@+id/botonC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Rutas"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="P.Interés"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Parque"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textoC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:text="El parque"
+            android:textColor="#336600"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:layout_above="@+id/scrollView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="29dp" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="wrap_content"
+
+            android:layout_height="250dp"
+            android:paddingRight="13dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/textoC1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:textSize="20dp"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="#336600" />
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="400dp"
+            android:layout_height="125dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagenC1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/rutaplazamoros2" />
+
+                <ImageView
+                    android:id="@+id/imagenC2"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/rutanavalrincon1" />
+
+                <ImageView
+                    android:id="@+id/imagenC3"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/aguilaimperial" />
+
+                <ImageView
+                    android:id="@+id/imagenC4"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/cabana" />
+
+                <ImageView
+                    android:id="@+id/imagenC5"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/rutaboqueronestena2" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondofunciona"
+    tools:context="com.example.monitor.cabappneros.Toterreno">
+
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/referencia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#af99cc66">
+
+        <RelativeLayout
+            android:id="@+id/referencia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/logoB1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="-18dp"
+                app:srcCompat="@mipmap/caba" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_toEndOf="@+id/logoB1">
+
+                <Button
+                    android:id="@+id/botonJ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Rutas"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonJ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="P.Interés"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonJ3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Parque"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

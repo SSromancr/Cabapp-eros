@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.monitor.cabappneros">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lanzador"
+        android:label="Cabappneros"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB3elihNF5_5Dx93XqySLHww1szVEbNQLo" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="Cabappñeros"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Historia"
+            android:label="@string/title_activity_historia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parque"
+            android:label="@string/title_activity_parque"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rutas"
+            android:label="@string/title_activity_rutas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pie"
+            android:label="@string/title_activity_pie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Flora"
+            android:label="@string/title_activity_flora"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fauna"
+            android:label="@string/title_activity_fauna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ComoLlegar"
+            android:label="@string/title_activity_como_llegar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bici"
+            android:label="@string/title_activity_bici"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Toterreno"
+            android:label="@string/title_activity_toterreno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Retuerta"
+            android:label="@string/title_activity_retuerta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Horcajo"
+            android:label="@string/title_activity_horcajo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alcoba"
+            android:label="@string/title_activity_alcoba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Palillos"
+            android:label="@string/title_activity_palillos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Interes"
+            android:label="@string/title_activity_interes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Popup2"
+            android:label="@string/title_activity_popup2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vinuela"
+            android:label="@string/title_activity_vinuela"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Botanica"
+            android:label="@string/title_activity_botanica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navalucillos"
+            android:label="@string/title_activity_navalucillos"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

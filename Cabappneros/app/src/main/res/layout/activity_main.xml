@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/fondofunciona"
+    tools:context="com.example.monitor.cabappneros.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/referencia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#af99cc66">
+
+        <RelativeLayout
+            android:id="@+id/referencia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/logoB1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="-18dp"
+                app:srcCompat="@mipmap/caba" />
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:lineSpacingExtra="8sp"
+                android:text="Parque Nacional\n de Cabañeros"
+                android:textAlignment="viewEnd"
+                android:textColor="#336600"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagenA1"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@mipmap/parq" />
+
+        <ImageView
+            android:id="@+id/imagenA2"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_alignStart="@+id/imagenA1"
+            android:layout_below="@+id/imagenA1"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@mipmap/rut" />
+
+        <ImageView
+            android:id="@+id/imagenA3"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+
+            android:layout_alignStart="@+id/imagenA2"
+            android:layout_below="@+id/imagenA2"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@mipmap/puntin" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

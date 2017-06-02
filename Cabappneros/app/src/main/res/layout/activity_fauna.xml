@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondofunciona"
+    tools:context="com.example.monitor.cabappneros.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/referencia2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#af99cc66">
+
+        <RelativeLayout
+            android:id="@+id/referencia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/logoB1"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="-18dp"
+                app:srcCompat="@mipmap/caba" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_toEndOf="@+id/logoB1">
+
+                <Button
+                    android:id="@+id/botonD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Rutas"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="P.Interés"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/botonD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="#336600"
+                    android:text="Parque"
+                    android:textAllCaps="false"
+                    android:textColor="#66CC66"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textoD1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="101dp"
+            android:paddingLeft="14dp"
+            android:text="Fauna"
+            android:textColor="#336600"
+            android:textSize="26dp" />
+
+        <ScrollView
+            android:id="@+id/scrollFauna"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textoD1"
+            android:layout_marginTop="21dp"
+            android:paddingRight="13dp">
+
+            <TextView
+                android:id="@+id/textoD2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="29dp"
+                android:paddingLeft="14dp"
+                android:text="La fauna de Cabañeros es la característica del monte mediterráneo ibérico, destacando especialmente las rapaces entre las que se encuentran el buitre negro (Aegypius monachus), con la segunda población mundial tras Monfragüe; el águila imperial ibérica (Aquila adalberti), que actualmente cuenta con cuatro parejas reproductoras; cigüeña negra (Ciconia nigra), especie muy sensible a la alteración de su hábitat y que encuentra en Cabañeros uno de sus mejores refugios; alimoche (Neophron pernopterus), el más pequeño de los buitres europeos; milano real (Milvus milvus), acoge algunas de las pocas parejas reproductoras de Castilla La Mancha; avutarda (Otis tarda) y sisón común (Tetrax tetrax), especies esteparias en regresión; rabilargo (Cyanopica cooki), especie endémica de la Península Ibérica muy abundante en el Parque. Todas ellas son especies en peligro de extinción, protegidas por la ley y que encuentran en el Parque Nacional de Cabañeros el hábitat que necesitan para recuperar sus poblaciones. Pero estas solo son un pequeño ejemplo, Cabañeros es un paraíso para los observadores de aves y amantes de la naturaleza en general, con más de 200 especies de aves entre sedentarias (elanio azul, búho real, gavilán común, águila real, buitre leonado, mirlo acuático, etc.), estivales (aguilucho cenizo, abejaruco, carraca, oropéndola, vencejo real, etc.) e invernantes (grulla común, lúgano, agachadiza chica, etc.); y la presencia estable de hasta 45 especies de mamíferos, destacando el ciervo (Cervus elaphus con su espectacular berrea; la nutria (Lutra lutra), que habita en casi cualquier curso de agua del Parque, con una buena población en el río Estena; gamo (Dama dama), especie de cérvido habitante de la alta montaña, que en el entorno del Parque puede verse en el macizo del Rocigalgo y otras zonas de cumbres; rata de agua (Arvicola sapidus), especie escasa con una pequeña representación en el Parque en cursos de agua estables y bien conservados. Mención aparte merece el lince ibérico (Lynx pardinus), especie paradigmática de la fauna ibérica, en muy amenazada y que en el pasado fue abundante pero hoy cuenta con una escasísima población. En el Parque su presencia es esporádica, pero ha vuelto a colonizar los Montes de Toledo y se espera que en los próximos años su presencia en el Parque se estabilice y se establezca como especie reproductora.
+Es también digna de mención las poblaciones de peces presentes, entre las que destacan el jarabugo (Anaecypris hispanica), especie endémica de la cuenca del Guadiana o el calandino (Squalius alburnoides), especie endémica del cuadrante suroeste de la Península Ibérica. También hay que destacar la presencia de reptiles como el lagarto ocelado, la culebra de herradura o la víbora hocicuda, y a nivel de insectos, la destacable presencia de 37 de las 77 especies de libélulas presentes en la Península Ibérica o la siempre llamativa luciérnaga.
+"
+                android:textAlignment="viewStart"
+                android:textColor="#336600"
+                android:textSize="20dp" />
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="400dp"
+            android:layout_height="125dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagenD1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/aguilareal" />
+
+                <ImageView
+                    android:id="@+id/imagenD2"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/alimoche" />
+
+
+                <ImageView
+                    android:id="@+id/imagenD3"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/buitreleonado" />
+
+                <ImageView
+                    android:id="@+id/imagenD4"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/calandino" />
+
+                <ImageView
+                    android:id="@+id/imagenD5"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/ciervos" />
+
+                <ImageView
+                    android:id="@+id/imagenD6"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/gamo" />
+
+                <ImageView
+                    android:id="@+id/imagenD7"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/lince" />
+
+                <ImageView
+                    android:id="@+id/imagenD8"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@mipmap/grulla" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
