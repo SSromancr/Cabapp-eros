@@ -9,8 +9,8 @@ de su historia, visualizar desde diferentes rutas hasta puntos de interés o exp
 y la fauna propia del pequeño paraíso manchego
 
 Proyecto realizado por:
-Agustín Peñalver Älvaro
-Priscila Avilés Sumozas
-Daniel López Babiano
-David Pérez Sánchez
-Jesús Perujo García
+Agustín Peñalver Älvaro,
+Priscila Avilés Sumozas,
+Daniel López Babiano,
+David Pérez Sánchez,
+Jesús Perujo García,
